@@ -1,5 +1,3 @@
-import numpy.random
-
 import Reporter
 import random
 import numpy as np
