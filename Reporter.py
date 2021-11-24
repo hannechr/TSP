@@ -5,7 +5,7 @@ import time
 class Reporter:
 
 	def __init__(self, filename):
-		self.allowedTime = 5 #origineel:300
+		self.allowedTime = 100 #origineel:300
 		self.numIterations = 0
 		self.filename = filename + ".csv"
 		self.delimiter = ','
